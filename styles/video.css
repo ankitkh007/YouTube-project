@@ -1,0 +1,139 @@
+
+  .video-info-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+  }
+
+  @media (max-width:600px)
+  {
+    .video-info-grid{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media(min-width: 601px) and (max-width: 899px)
+  {
+    .video-info-grid{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  @media (min-width:900px)
+  {
+    .video-info-grid{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+
+  .thumbnail {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .video-title{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    overflow: hidden;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .video-views {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+  }
+  .youtube-channel {
+    font-size: 8px;
+    color: rgb(96, 96, 96);
+    margin-top: 11px;
+    margin-bottom: 11px;
+  }
+
+  .video-description {
+    font-size: 10px;
+    color: rgb(96, 96, 96);
+  }
+
+  .icon{
+    height: 18px;
+    width: 19px;
+    margin-right: 5px;
+    vertical-align: middle;
+    border-radius: 50%;
+  }
+
+  .manoj-tiwari{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(96, 96, 96);
+  }
+
+  .video-thumbnail{
+    position: relative;
+  }
+  .video-time{
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    font-size: 9px;
+    font-weight: 500;
+    padding: 2px 3px 2px 3px;
+    border-radius: 3px;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+  }
+
+  
+  .video-info-blocks{
+    transition: background-color 0.7s;
+    border-radius: 15px;
+    padding: 6px;
+  }
+  .video-info-blocks:hover{
+    cursor: pointer;
+    background-color: rgb(186, 186, 186);
+  }
+
+  .video-link{
+    text-decoration: none;
+    color: black;
+  }
+  .channel-link{
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .yt-checkmark{
+    height: 9px;
+    margin-left: 4px;
+  }
+
+  .channel-link .tooltips{
+    color: white;
+    font-size: 9px;
+    font-weight: 500;
+    background-color: rgba(91, 91, 91, 0.847);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 2px;
+    position: absolute;
+    top: -22px;
+    margin-left: 10px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+  .channel-link:hover .tooltips{
+    opacity: 1;
+  }  
