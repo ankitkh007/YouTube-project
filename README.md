@@ -6,7 +6,6 @@ This project is a **front-end clone of YouTube's homepage**. It replicates the d
 
 ## 🌟 Features
 
-- **Responsive Design**: The layout adapts to different screen sizes (mobile, tablet, desktop).
 - **Dynamic Content**: Populated with dynamic video thumbnails, titles, and channel details.
 - **Navigation Bar**: Functional search bar, notification icon, and user profile.
 - **Video Preview**: Hover effect on video thumbnails showing brief details.
