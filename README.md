@@ -16,3 +16,6 @@ This project is a **front-end clone of YouTube's homepage**. It replicates the d
 - **CSS3**: For styling the page and ensuring responsiveness.
 - **Font Awesome**: For adding icons (e.g., search, notifications, user profile).
 - **Google Fonts**: For custom fonts to match YouTube's style.
+
+## License
+- [MIT LICENSE](LICENSE)
